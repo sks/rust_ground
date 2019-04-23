@@ -14,4 +14,4 @@ FROM scratch
 
 COPY --from=builder /src/code/target/x86_64-unknown-linux-musl/release/wasm /bin/wasm
 
-CMD ["/bin/wasm"]
+ENTRYPOINT ["/bin/wasm"]

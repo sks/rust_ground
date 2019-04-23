@@ -1,0 +1,9 @@
+version: 2.0
+jobs:
+ build:
+   machine: true
+   steps:
+     - checkout
+     - run: |
+        docker build -t wasm:latest .;
+        docker run --rm wasm:latest test
