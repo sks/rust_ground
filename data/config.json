@@ -1,0 +1,15 @@
+{
+    "adapters": [
+        {
+            "type": "http",
+            "config": {
+                "url": "http://www.google.com"
+            },
+            "output": {
+                "200": "Green",
+                "400": "Orange",
+                "500": "Red"
+            }
+        }
+    ]
+}

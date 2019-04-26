@@ -5,4 +5,4 @@
 ## Learning Rust
 
 1. Watch [youtube crash course video](https://www.youtube.com/watch?v=zF34dRivLOw&t=66s)
-2. Create a [wasm](https://rustwasm.github.io/book/) project
+2. Create a [anystatus](https://www.anystat.us/) replica.
